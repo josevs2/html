@@ -8,10 +8,39 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <ul>
+        <li>elemento1</li>
+        <li>elemento2</li>
+        <li>elemento3</li>
+        <li>elemento4</li>
+    </ul>
+    <ol>
+        <li>elemento1</li>
+        <li>elemento2</li>
+        <li>elemento3</li>
+        <li>elemento4</li>
+    </ol>
+
+
     <h1>Titulo</h1>
     <p>parrafo</p>
     <p>
         texto1 <span>texto2</span> texto 3
     </p>
+    <form action="/formulario" method="get"> 
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre" />
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Apellido" />
+        <br>
+        <textarea rows="10" cols="50" name="comentario" id="comentario" placeholder="Ingrese comentario"></textarea>
+        <br>
+        <!-- <input type="submit" value="Enviar" /> -->
+        <button type="button">boton</button>
+        <button type="reset">restaurar</button>
+        <button type="submit">Enviar</button>
+        <button type="submit">Enviar</button>
+    </form>
 </body>
 </html>
